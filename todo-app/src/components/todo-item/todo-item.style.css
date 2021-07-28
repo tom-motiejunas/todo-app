@@ -1,0 +1,32 @@
+.item-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  width: 100%;
+  background-color: var(--tertiary-color);
+}
+
+.todo-info {
+  font-size: 20px;
+  padding-left: 1rem;
+}
+.btns-box {
+  margin-left: auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.btns-box button {
+  border: none;
+  text-align: center;
+  margin-right: 0.5rem;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  cursor: pointer;
+}
